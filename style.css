@@ -35,9 +35,10 @@ nav a.link_with_hover:hover{
     width: auto;
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 40px;
     font-size: 120px;
     font-weight: 800;
+    gap: 15px;
 }
 
 .logo_first_g, .logo_second_g{
@@ -96,6 +97,7 @@ footer{
     }
     .logo{
         font-size: 15vw;
+        gap: 5px;
     }
     .search{
         width: 100%;
