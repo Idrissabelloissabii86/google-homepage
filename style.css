@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    background-color: #fff;
+}
+/* header style */
+header{
+    padding: 50px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    margin: auto;
+    gap: 10px;
+}
+nav a{
+    text-decoration:none;
+    color: #70757a;
+    padding: 10px;
+    cursor: pointer;
+}
+nav a.link_with_hover:hover{
+    background-color: #f1f3f4;
+    border-radius: 5px;
+
+}
+/* main style */
+.logo{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.logo_first_g, .logo_second_g{
+    color: #4285F4;
+}
+
+.logo_e, .logo_first_o{
+    color: #EA4335;
+}
+.logo_second_o{
+    color: #FBBC05;
+}
+.logo_l{
+    color: #34A853
+;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search input{
+    width: 550px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.5px solid #70757a;
+}
+.down_button{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    color: #34A853;
+}
+footer{
+    text-align: center;
+    margin: 30px;
+    color: #202124;
+}
+/* media query */
+@media (max-width: 768px) {
+    nav{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .logo{
+        font-size: 15vw;
+    }
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width: 70%;
+    }
+    
+}
